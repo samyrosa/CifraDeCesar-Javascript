@@ -14,14 +14,14 @@
     <div class="card p-3 shadow">
         <div class="card-body">
             <label class="fw-bold" for="">Chave:</label>
-            <input class="form-control mb-3" type="number">
+            <input id="InputKey" class="form-control mb-3" type="number">
             <label class="fw-bold" for="">Texto:</label>
-            <input class="form-control mb-3" type="text">
+            <input id="InputTexto" class="form-control mb-3" type="text">
             <label class="fw-bold" for="">Resultado:</label>
-            <input class="form-control mb-3" type="text" readonly>
+            <input id="InputResult" class="form-control mb-3" type="text" readonly>
             <hr>
-            <button type="button" class="btn btn-success">ENCRIPTAR</button>
-            <button type="button" class="btn btn-danger">DESENCRIPTAR</button>
+            <button type="button" class="btn btn-success" onclick="encry()">ENCRIPTAR</button>
+            <button type="button" class="btn btn-danger" onclick="descry()">DESENCRIPTAR</button>
         </div>
     </div>
 
